@@ -1,0 +1,240 @@
+
+
+
+.navbar {
+    background-color: rgb(95, 162, 194);
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav a.active {
+    text-decoration: underline;
+    color: white;
+}
+
+.dropdown-item {
+    color: rgb(81, 147, 177);
+}
+
+.bg-image {
+    background-image: url(./img/Home.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.container2 {
+    margin-top: 50px;
+}
+
+
+h2 {
+    font-size: 60px;
+    color: rgb(89, 164, 198);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: calc(1.525rem + 4vw);
+    }
+}
+
+h3 {
+    font-size: 100px;
+    color: rgb(89, 164, 198);
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: calc(1.525rem + 3vw);
+    }
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.display-1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.display-3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(3, 45, 64);
+}
+
+
+.accordion-button1 {
+    background-image: url(./img/LogoCream.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    font-weight: 800;
+    
+}
+
+.row-table {
+    margin-top: 70px;
+}
+
+.row-table h1 {
+    color: blue;
+}
+
+.container-sm {
+    max-width: 1000px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    height: 30px;
+    width: 20px;
+    background-color: rgb(32, 9, 124);
+    background-size: 100%, 100%;
+    margin-left: 90px;
+    margin-right: 110px;
+    margin-top: 105px;
+}
+
+hr {
+    min-height: .2em;
+    background-color: blue;
+}
+
+#hr2 {
+    background-color: black;
+    min-height: .2rem;
+}
+
+.vr {
+    width: 3px;
+    background-color: blue;
+}
+
+p {
+    margin-top: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#events p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(89, 164, 198);
+
+}
+
+#copy p {
+    font-weight: 300;
+    font-size: 12px;    
+}
+
+#shows h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#shows h4 {
+    font-size: 22px;
+    font-weight: 300;
+    
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-shadow:  2px 2px 3px grey;
+    margin-left: 30px;
+    font-size: 150px;
+}
+
+@media (max-width: 768px) {
+    h5 {
+        font-size: calc(1.525rem + 15vw);
+    }
+}
+
+.fs-1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: rgb(89, 164, 198);
+}
+
+#itembox .card {
+    box-shadow: 2px 2px 6px lightblue;
+}
+
+#controlers .carousel-control-prev {
+    position: absolute;
+    left: -70px;
+    background-color: lightslategray;
+    opacity: 50%;
+}
+
+#controlers .carousel-control-next {
+    position: absolute;
+    right: -90px;
+    background-color: lightslategray;
+    opacity: 50%;
+}
+
+.btn:hover {
+    background-color: rgb(89, 164, 198);
+}
+#bgColor {
+    background-color: rgba(73, 140, 162, 0.6);
+}
+
+#bgColor p {
+    color:  white;
+}
+
+.form-select-sm {
+    width: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .nav1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .label1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .label1 {
+        display: contents;
+    }
+} 
+
+@media screen and (min-width: 420px) {
+    .total1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .total1 {
+        display: contents;
+    }
+} 
